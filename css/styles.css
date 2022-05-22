@@ -103,6 +103,10 @@ body {
 
 /* ===============HERO=============== */
 .hero {
+background-color: var(--hero-background-color);
+}
+
+.hero-title {
     font-family: var(--secondary-font);
     font-weight: 900;
     font-size: 44px;
@@ -111,7 +115,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--hero-title-color);
-    background-color: var(--hero-background-color);
 }
 
 .modal-btn {
@@ -150,7 +153,6 @@ body {
 
  .advantages-text {
     font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -198,9 +200,8 @@ body {
 
 .team-position {
     font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--sections-text-color);
@@ -216,7 +217,6 @@ body {
 
  .footer-maps {
     font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -226,7 +226,6 @@ body {
  .footer-mail,
  .footer-phone {
     font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -272,7 +271,6 @@ body {
 
  .portfolio-project-description {
     font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
